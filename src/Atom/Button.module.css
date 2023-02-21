@@ -1,8 +1,10 @@
 .button{
-    width: 6rem;
+    /* width: 6rem;
     height: 1.5rem;
     margin-left: 55rem;
    
-   margin-bottom: 40rem;
+   margin-bottom: 40rem; */
+   margin-top: 60px;
+   background-color: lightgray;
    
 }

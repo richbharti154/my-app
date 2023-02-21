@@ -1,8 +1,6 @@
 
 
-
- 
-      export  const data1=[
+   export  const data1=[
 
       
 
@@ -26,12 +24,12 @@
       },
       {
         id:4,
-        Title:'Grinning face with big eyes',
+        Title:'Grinning face ',
         symbol:'🤩',
       },
       {
         id:5,
-        Title:' Grinng face with Hearts',
+        Title:' Grinng  Hearts',
         symbol:'❤',
       },
       {
@@ -71,12 +69,12 @@
         },
         {
           id:4,
-          Title:'Grinning face with big eyes',
+          Title:'Grinning  big eyes',
           symbol:'🤩',
         },
         {
           id:5,
-          Title:' Grinng face with Hearts',
+          Title:'  Hearts',
           symbol:'❤',
         },
         {
@@ -107,6 +105,30 @@
           Title:'Carpenter',
           symbol:'👲'
         },
+       {
+           id:11,
+           Title:'Laughing to much',
+           symbol:'🤣',
+
+       },
+        {
+         id:12,
+         Title:' Open Laughing ',
+         symbol:'😁',
+
+      },
+     {
+       id:13,
+       Title:' Rotu face ',
+       symbol:'😓',
+
+     },
+   {
+     id:14,
+    Title:' Weeping mood ',
+    symbol:'😪',
+
+},
       ]
       
      

@@ -1,35 +1,87 @@
 .EmojiSearch{
-     /* background-size: cover;
+      /* background-size: cover; */
     background-image:
-     url('https://e0.pxfuel.com/wallpapers/807/833/desktop-wallpaper-peach-emoji-galaxy-cute-love-galaxy-emoji-pink-emoji.jpg');
-     */
-
+     url('https://media.istockphoto.com/id/183412466/photo/eastern-bluebirds-male-and-female.jpg?s=612x612&w=0&k=20&c=6_EQHnGedwdjM9QTUF2c1ce7cC3XtlxvMPpU5HAouhc=');
+     
+    
      width: 100%;
-    height: 100vh;
+   
      display: grid;
    grid-template-rows: 20em auto;
-   background-color: greenyellow; 
+   background-color: aqua;
   
-   
+  
+
 }
  .menu{
-    display: grid;
-    place-content:center ;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+
 } 
 
 .search{
      color:black; 
     font-size: 1.5rem;
-    margin-top: 1rem;
+   
    
 
 }
 .heading{
    font-size: 2.8rem; 
    margin-left: 2.5rem;
-   margin-top: 7rem;
+   margin-top: 3rem;
 }
  
 .container{
    display: grid; 
+}
+.deleteEmoji{
+   display: grid;
+   place-content: center;
+}
+.card{
+   border:2px solid black;
+   width:200px;
+   height:120px;
+   background-image: url('https://images.pexels.com/photos/1266810/pexels-photo-1266810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+   
+
+
+/* .deleteEmoji{
+   margin-top: 140px;
+} */
+.cardContainer{
+ 
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap:2rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  padding-left: 6rem;
+  text-align: center;
+  /* background-image: 
+  url('https://media.istockphoto.com/id/506104167/photo/jog-falls-india.jpg?s=612x612&w=0&k=20&c=Jw93WSCzzK35_WfOi0aD5rk-uLramv4F7rp_pVSbUEc=')
+} */
+   
+background-color:lightcoral;
+}
+@media only screen and(max-width:'450px') {
+   .EmojiSearch{
+      /* background-size: cover; */
+    background-image:
+     url('https://media.istockphoto.com/id/183412466/photo/eastern-bluebirds-male-and-female.jpg?s=612x612&w=0&k=20&c=6_EQHnGedwdjM9QTUF2c1ce7cC3XtlxvMPpU5HAouhc=');
+     
+    
+     width: 50%;
+   
+    
+   
+  
+  
+
+}
 }
