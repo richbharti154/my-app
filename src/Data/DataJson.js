@@ -22,11 +22,7 @@
         Title:'Grinnigface',
         symbol:'😛',
       },
-      {
-        id:4,
-        Title:'Grinning face ',
-        symbol:'🤩',
-      },
+     
       {
         id:5,
         Title:' Grinng  Hearts',
